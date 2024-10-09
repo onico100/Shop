@@ -12,6 +12,7 @@ const getProduct = (product) => {
     </div>
       <img src="${imageUrl}" alt="${product.title}" class="prod-image" />
     <p>${product.price}</p>
+    <button>הוספה לסל</button>
     </div>`;
 };
 

@@ -38,6 +38,8 @@ body {
   margin: 0;
 }
 
+
+
 .main-content {
   display: flex;
 }
@@ -52,7 +54,7 @@ body {
   text-align: center;
 }
 
-.sideBar button {
+button {
   color: white;
   background-color: blueviolet;
   border-radius: 10px;
@@ -61,7 +63,7 @@ body {
   padding: 10px;
 }
 
-.sideBar button:hover {
+button:hover {
   background-color: darkblue;
 }
 
