@@ -37,8 +37,6 @@ body {
   margin: 0;
 }
 
-
-
 .main-content {
   display: flex;
 }
@@ -73,7 +71,7 @@ button:hover {
 }
 
 .welcome {
-  width: 80vw;
+  width: 76vw;
   background-color: aliceblue;
   color: blueviolet;
   text-align: center;
