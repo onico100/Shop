@@ -11,4 +11,3 @@ const renderProducts = (products) => {
   let htmlProducts = products.map((product) => getProduct(product)).join("");
   document.getElementById("prod-area").innerHTML = htmlProducts;
 };
-
