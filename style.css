@@ -1,4 +1,8 @@
+
 .prod-area {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
@@ -20,6 +24,32 @@
   font-weight: bold;
   align-items: center;
   margin: 0;
+
+.main-content {
+  display: flex;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  background-color: aliceblue;
+  padding: 10px;
+  color: blueviolet;
+  text-align: center;
+}
+
+.sideBar button {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.sideBar button:hover {
+  background-color: darkblue;
 }
 
 .prod-image {

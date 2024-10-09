@@ -6,10 +6,17 @@
     <title>Responsive Blog</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <script src="model.js"></script>
+  <script src="view.js"></script>
+  <script src="main.js"></script>
   <body>
-    <div id="prod-area" class="prod-area"></div>
-    <script src="model.js"></script>
-    <script src="view.js"></script>
-    <script src="main.js"></script>
+    <div class="main-content">
+      <div id="prod-area" class="prod-area"></div>
+      <div id="sidebar" class="sideBar">
+        <h2>תפריט</h2>
+        <button onclick="moveTo(1)">כלי כתיבה</button>
+        <button onclick="moveTo(2)">מחברות</button>
+      </div>
+    </div>
   </body>
 </html>

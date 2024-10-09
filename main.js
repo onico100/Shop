@@ -1,5 +1,4 @@
-function main() {
-  renderProducts(Gcraft);
+function moveTo(num) {
+  if (num === 1) renderProducts(Gcraft);
+  else renderProducts(Gnotebooks);
 }
-
-main();
