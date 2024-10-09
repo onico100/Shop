@@ -1,6 +1,31 @@
-.prod-area {
-  display: grid;
-  grid-template-columns: repeat(auto-fill);
+.main-content {
+  display: flex;
+}
 
-  gap: 20px;
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  background-color: aliceblue;
+  padding: 10px;
+  color: blueviolet;
+  text-align: center;
+}
+
+.sideBar button {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.sideBar button:hover {
+  background-color: darkblue;
+}
+.prod-area {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 20px;
 }
